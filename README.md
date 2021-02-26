@@ -30,4 +30,4 @@ Hangman(animation), images about trophies, information’s about football, save 
 and make a leader board
 
 # Contact
-EMAILS: a.el-hamaoui@htl-leonding.ac.at, berdankadir12@gmail.com or join our [discord Server](https://discord.gg/bknyd5q)
+EMAILS: a.el-hamaoui@htl-leonding.ac.at, berdankadir12@gmail.com or join our [Discord Server](https://discord.gg/bknyd5q)
