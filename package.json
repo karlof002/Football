@@ -1,7 +1,7 @@
 {
-    "title": "Grayscale",
-    "name": "startbootstrap-grayscale",
-    "version": "6.0.4",
+    "title": "Football-project",
+    "name": "football",
+    "version": "v3.0.1",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
         "build:assets": "node scripts/build-assets.js",
@@ -12,31 +12,33 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "A grayscale one page HTML theme for Bootstrap.",
+    "description": "A HTL-leonding project from Abdal & Berdan(2BHIF)",
     "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
+        "HTL-leonding",
+        "projects",
+        "football",
+        "football-history",
         "theme",
         "template"
     ],
     "homepage": "https://startbootstrap.com/theme/grayscale",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-grayscale/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/karlof002/Football/issues",
+        "email": "karlof04gamer@gmail.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Abdal",
     "contributors": [
-        "David Miller (https://davidmiller.io/)"
+        "Berdan Kadir (https://github.com/berdankadir12)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-grayscale.git"
+        "url": "https://github.com/karlof002/Football.git"
     },
     "dependencies": {
-        "bootstrap": "4.6.0"
+        "bootstrap": "4.6.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1"
     },
     "devDependencies": {
         "autoprefixer": "10.2.5",
