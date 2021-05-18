@@ -10,40 +10,56 @@ let score = 0
 let questionCounter = 0
 let availableQuestions = []
 let questions = [{
-        question: 'What is 2 + 2?',
-        choice1: '2',
-        choice2: '4',
-        choice3: '21',
-        choice4: '17',
+        question: 'Who won the most champions league?',
+        choice1: 'Dortmund',
+        choice2: 'FC Bayern',
+        choice3: 'Liverpool',
+        choice4: 'Real Madrid',
+        answer: 4,
+    },
+    {
+        question: "Who is the greatest soccer player, also known as “The King of Soccer”?", 
+        choice1: "David Beckham",
+        choice2: "Pelé",
+        choice3: "Diego Maradona",
+        choice4: "Zidane",
         answer: 2,
     },
     {
-        question: "Who is better Abdal or Berdan?",
-        choice1: "Berdan",
-        choice2: "Berdan",
-        choice3: "Berdan",
-        choice4: "Berdan",
-        answer: 1,
+        question: "How many players in total will be on the field in a typical soccer match?",
+        choice1: "11",
+        choice2: "22",
+        choice3: "33",   
+        choice4: "60",
+        answer: 2,
     },
     {
-        question: "1+2?",
-        choice1: "2",
-        choice2: "6",
-        choice3: "3",
-        choice4: "33",
+        question: "How long does a soccer game last?",
+        choice1: "45 minutes",
+        choice2: "90 minutes",
+        choice3: "120 minutes",
+        choice4: "430 minutes",
+        answer: 2,
+    },
+    {
+        question: "Which player scored the “Hand of God” goal in a match of the 1986 World Cup?",
+        choice1: "Rudi Völler",
+        choice2: "Cláudio Taffarel",
+        choice3: "Diego Maradona",
+        choice4: "George Hagi",
         answer: 3,
     },
     {
-        question: "f?",
-        choice1: "f",
-        choice2: "g",
-        choice3: "1",
-        choice4: "30",
+        question: "Who can add time in a soccer game?",
+        choice1: "Referee",
+        choice2: "Coach",
+        choice3: "Team captain",
+        choice4: "Audience",
         answer: 1,
     }
 ]
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 4
+const MAX_QUESTIONS = 6
 startGame = () => {
     questionCounter = 0
     score = 0
