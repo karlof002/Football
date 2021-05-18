@@ -63,12 +63,14 @@ html(lang='en')
         section#projects.projects-section.bg-light
             .container
                 // Featured Project Row
-                .row
-                        .col-lg-8.mx-auto
-                            h4.text.black.mb-4 History
-                            p.text-black-50
-                                | Records trace the history of soccer back more than 2,000 years ago to ancient China. Greece, Rome, and parts of Central America also claim to have started the sport; but it was England that transitioned soccer, or what the British and many other people around the world call “football,” into the game we know today.
-                        img.img-fluid.mb-7(src='assets/img/old-picture.png', alt='...')
+                .row.align-items-center.no-gutters.mb-4.mb-lg-5
+                    .col-xl-8.col-lg-7
+                        img.img-fluid.mb-3.mb-lg-0(src='assets/img/old-picture.png', alt='...')
+                    .col-xl-4.col-lg-5
+                        .featured-text.text-center.text-lg-left
+                            h4 History
+                            p.text-black-50.mb-0
+                            | Records trace the history of soccer back more than 2,000 years ago to ancient China. Greece, Rome, and parts of Central America also claim to have started the sport; but it was England that transitioned soccer, or what the British and many other people around the world call “football,” into the game we know today.
                 // Project One Row
                 .row.justify-content-center.no-gutters.mb-5.mb-lg-0
                     .col-lg-6
