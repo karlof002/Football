@@ -1,0 +1,18 @@
+@import "./variables.scss";
+@import "bootstrap/scss/bootstrap.scss";
+@import "./global.scss";
+@import "./components/navbar.scss";
+@import "./components/buttons.scss";
+@import "./sections/masthead.scss";
+@import "./sections/about.scss";
+@import "./sections/projects.scss";
+@import "./sections/signup.scss";
+@import "./sections/contact.scss";
+@import "./sections/footer.scss";
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #454d55;
+}
