@@ -86,6 +86,13 @@ h2 {
     box-shadow: 0 0.4rem 1.4rem 0 rgba(255,255,0,0.5)
 }
 
+#main-btn {
+    background: linear-gradient(90deg, rgb(201, 25, 25) 0%, rgb(240, 26, 26) 100%);
+}
+#main-btn:hover {
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(241, 91, 91, 0.5)
+}
+
 .fa-crown {
     font-size: 2.5rem;
     margin-left: 1rem;
