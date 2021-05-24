@@ -38,7 +38,8 @@
     "dependencies": {
         "bootstrap": "4.6.0",
         "ejs": "^3.1.6",
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "express.js": "^1.0.0"
     },
     "devDependencies": {
         "autoprefixer": "10.2.5",
