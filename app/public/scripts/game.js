@@ -11,7 +11,7 @@ let questionCounter = 0
 let availableQuestions = []
 let questions = [{
         question: 'Who won the most champions league?',
-        choice1: 'Dortmund',
+        choice1: 'FC Barcelona',
         choice2: 'FC Bayern',
         choice3: 'Liverpool',
         choice4: 'Real Madrid',
