@@ -18,7 +18,7 @@ let questions = [{
         answer: 4,
     },
     {
-        question: "Who is the greatest soccer player, also known as “The King of Soccer”?", 
+        question: "Who is the greatest soccer player, also known as “The King of Soccer" ?", 
         choice1: "David Beckham",
         choice2: "Pelé",
         choice3: "Diego Maradona",
