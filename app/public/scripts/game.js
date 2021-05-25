@@ -30,7 +30,7 @@ let questions = [{
         choice1: "11",
         choice2: "22",
         choice3: "33",   
-        choice4: "60",
+        choice4: "23",
         answer: 2,
     },
     {
