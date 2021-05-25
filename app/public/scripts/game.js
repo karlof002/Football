@@ -56,10 +56,20 @@ let questions = [{
         choice3: "Team captain",
         choice4: "Audience",
         answer: 1,
+    },
+
+    {
+        question: "Who won the most Ballon d’Ors?",
+        choice1: "Lionel Messi",
+        choice2: "Christiano Ronaldo",
+        choice3: "Ronaldo Nazario",
+        choice4: "Diego Maradona",
+        answer: 1,
+
     }
 ]
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 6
+const MAX_QUESTIONS = 7
 startGame = () => {
     questionCounter = 0
     score = 0
