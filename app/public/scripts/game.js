@@ -11,14 +11,14 @@ let questionCounter = 0
 let availableQuestions = []
 let questions = [{
         question: 'Who won the most champions league?',
-        choice1: 'FC Barcelona',
+        choice1: 'Dortmund',
         choice2: 'FC Bayern',
         choice3: 'Liverpool',
         choice4: 'Real Madrid',
         answer: 4,
     },
     {
-        question: "Who is the greatest soccer player, also known as “The King of Soccer" ?", 
+        question: "Who is the greatest soccer player, also known as “The King of Soccer”?", 
         choice1: "David Beckham",
         choice2: "Pelé",
         choice3: "Diego Maradona",
@@ -30,15 +30,15 @@ let questions = [{
         choice1: "11",
         choice2: "22",
         choice3: "33",   
-        choice4: "23",
+        choice4: "60",
         answer: 2,
     },
     {
         question: "How long does a normal soccer game last?",
-        choice1: "60 minutes",
+        choice1: "45 minutes",
         choice2: "90 minutes",
         choice3: "120 minutes",
-        choice4: "100 minutes",
+        choice4: "430 minutes",
         answer: 2,
     },
     {
@@ -66,10 +66,20 @@ let questions = [{
         choice4: "Diego Maradona",
         answer: 1,
 
+    },
+
+    {
+        question: "How much did  Cristiano Ronaldo won the Champions League title",
+        choice1: "Lionel Messi",
+        choice2: "Christiano Ronaldo",
+        choice3: "Ronaldo Nazario",
+        choice4: "Diego Maradona",
+        answer: 1,
+
     }
 ]
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 7
+const MAX_QUESTIONS = 8
 startGame = () => {
     questionCounter = 0
     score = 0
