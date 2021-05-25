@@ -35,7 +35,7 @@ let questions = [{
     },
     {
         question: "How long does a normal soccer game last?",
-        choice1: "45 minutes",
+        choice1: "60 minutes",
         choice2: "90 minutes",
         choice3: "120 minutes",
         choice4: "100 minutes",
