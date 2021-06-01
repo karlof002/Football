@@ -70,11 +70,11 @@ let questions = [{
 
     {
         question: "How much did  Cristiano Ronaldo won the Champions League title",
-        choice1: "Lionel Messi",
-        choice2: "Christiano Ronaldo",
-        choice3: "Ronaldo Nazario",
-        choice4: "Diego Maradona",
-        answer: 1,
+        choice1: "3",
+        choice2: "7",
+        choice3: "5",
+        choice4: "4",
+        answer: 3,
 
     }
 ]
