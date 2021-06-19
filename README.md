@@ -17,4 +17,4 @@ You must have npm installed in order to use this build environment.
 
 ### Application
 
-It's a simple Quiz about Football. To run this Application, you need to run `npm i express.js --save` and `npm i express --save`. once you are done, you have to navigate into the `app` root and then run `node ./index.js`. To see the application's webpage, simply type `http://localhost:4000` in your browser.
+It's a simple Quiz about Football. To run this Application, you need to run `npm i express --save`. once you are done, you have to navigate into the `app` root and then run `node ./index.js`. To see the application's webpage, simply type `http://localhost:4000` in your browser.
