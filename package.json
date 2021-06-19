@@ -12,7 +12,7 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "A HTL-leonding project from Abdal & Berdan(2BHIF)",
+    "description": "A HTL-leonding project from Abdal & Berdan (2BHIF)",
     "keywords": [
         "HTL-leonding",
         "projects",
