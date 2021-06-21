@@ -74,11 +74,27 @@ let questions = [{
         choice3: "5",
         choice4: "4",
         answer: 3,
+    },
+    {
+        question: "Which of the following country hosted the first Football World Cup?",
+        choice1: "America",
+        choice2: "Argentina",
+        choice3: "Brazil",
+        choice4: "Uruguay",
+        answer: 4,
+    },
+    {
+        question: "When was first official international football match was played?",
+        choice1: "1929",
+        choice2: "1872",
+        choice3: "1902",
+        choice4: "1870",
+        answer: 2,
     }
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 8
+const MAX_QUESTIONS = 10
 startGame = () => {
     questionCounter = 0
     score = 0
