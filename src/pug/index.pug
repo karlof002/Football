@@ -1,0 +1,212 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='Football Website')
+        meta(name='author', content='Abdal & Berdan')
+        title Football
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.15.3/js/all.js', crossorigin='anonymous')
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Varela+Round', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i', rel='stylesheet')
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+    body#page-top
+        // Navigation
+        nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
+            .container
+                a.navbar-brand.js-scroll-trigger(href='#page-top') Home
+                button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                    | Menu
+                    i.fas.fa-bars
+                #navbarResponsive.collapse.navbar-collapse
+                    ul.navbar-nav.ml-auto
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#Overview') Overview
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#projects') History
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#signup') Contact
+        // Masthead
+        header.masthead
+            .container.d-flex.h-100.align-items-center
+                .mx-auto.text-center
+                    h1.mx-auto.my-0.text-uppercase Football
+                    h2.text-white-50.mx-auto.mt-2.mb-5 Welcome to our website! Here you can start our quiz or continue with the general pieces of information about Football
+                    a.btn.btn-primary.js-scroll-trigger(href='#Overview') Overview
+                    a.btn.btn-primary.js-scroll-trigger(href='http://localhost:4000') Quiz
+        // About
+        section#Overview.about-section.text-center
+            .container
+                .row
+                    .col-lg-8.mx-auto
+                        h2.text-white.mb-4 What is football in general?
+                        p.text-white-50
+                            | Soccer is a ball game played by two teams. The ball is advanced with the feet, that is why the sport is also called football. As not to confuse it with other variants of football, for example American football, rugby, or Gaelic football, the official name of this sport is association football. But English native speakers usually just call it soccer, football, footie, footy or footer.
+                img.img-fluid(src='assets/img/ipad.png', alt='...')
+        // History
+        section#projects.projects-section.bg-light
+            .container
+                // Featured Project Row
+                .row.align-items-center.no-gutters.mb-4.mb-lg-5
+                    .col-xl-8.col-lg-7
+                        img.img-fluid.mb-3.mb-lg-0(src='assets/img/old-picture.png', alt='...')
+                    .col-xl-4.col-lg-5
+                        .featured-text.text-center.text-lg-left
+                            h4 History
+                            p.text-black-50.mb-0
+                            | Records trace the history of soccer back more than 2,000 years ago to ancient China. Greece, Rome, and parts of Central America also claim to have started the sport; but it was England that transitioned soccer, or what the British and many other people around the world call “football,” into the game we know today.
+                // Project One Row
+                .row.justify-content-center.no-gutters.mb-5.mb-lg-0
+                    .col-lg-6
+                        img.img-fluid(src='assets/img/cr.jpg', alt='...' style="height:400px;width:600px")
+                    .col-lg-6
+                        .bg-black.text-center.h-100.project
+                            .d-flex.h-100
+                                .project-text.w-100.my-auto.text-center.text-lg-left
+                                    h4.text-white The biggest tournaments
+                                    p.mb-0.text-white-50
+                                        | Every country has its own league where different teams play against each other and the best Teams may participate in the champions legaue or in the europa legaue (only europe teams). but the best in their own league do not always come to these tournaments sometimes only the first, second, third or fourth come to these tournaments or have to play qualifying games for the tournaments
+                                    hr.d-none.d-lg-block.mb-0.ml-0
+                // Project Two Row
+                .row.justify-content-center.no-gutters
+                    .col-lg-6
+                        img.img-fluid(src='assets/img/ballon_dor.jpg', alt='...')
+                    .col-lg-6.order-lg-first
+                        .bg-black.text-center.h-100.project
+                            .d-flex.h-100
+                                .project-text.w-100.my-auto.text-center.text-lg-left
+                                    h4.text-white What is the most prestigious award in football?
+                                    p.mb-0.text-white-50
+                                        | The Ballon d'Or (Golden Ball) is an annual football award presented by French news magazine France Football that is one of the oldest and generally regarded as the most prestigious individual award for football players.
+                                    hr.d-none.d-lg-block.mb-0.ml-0
+                // Project Three Row
+                .row.justify-content-center.no-gutters.mb-5.mb-lg-0
+                    .col-lg-6
+                        img.img-fluid(src='assets/img/statistics.png', alt='...' style="height:400px;width:600px")
+                    .col-lg-6
+                        .bg-black.text-center.h-100.project
+                            .d-flex.h-100
+                                .project-text.w-100.my-auto.text-center.text-lg-left
+                                    h4.text-white Ballon d'or Statistics
+                                    p.mb-0.text-white-50
+                                        | Here on the diagram you can see the football players who have won the ballondor the most as you can see here is messi with 6 ballonders, the first comes after ronaldo and so on. Players like Maradona and Pele are not there because ballondor was not taken seriously at the time.
+                                    hr.d-none.d-lg-block.mb-0.ml-0
+                    .container
+                        .row
+                            .project-text.w-100.my-auto.text-center.text-lg-left
+                                h1.text-black.text-center Rules of Football
+                                    p.mb-0.text-white(style="font-size: 20px").text-center .
+                                    ul.text-left
+                                        li.mb-1.text-black(style="font-size: 20px") A match consists of two 45 minutes halves with a 15 minute rest period in between.
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px") Each team can have a minimum off 11 players (including 1 goalkeeper who is the only player allowed to handle the ball within the 18 yard box) and a minimum of 7 players are needed to constitute a match.
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px") The field must be made of either artificial or natural grass. The size of pitches is allowed to vary but must be within 100-130 yards long and 50-100 yards wide. The pitch must also be marked with a rectangular shape around the outside showing out of bounds, two six yard boxes, two 18 yard boxes and a centre circle. A spot for a penalty placed 12 yards out of both goals and centre circle must also be visible.
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px") The ball must have a circumference of 58-61cm and be of a circular shape.
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px") Each team can name up to 7 substitute players. Substitutions can be made at any time of the match with each team being able to make a maximum of 3 substitutions per side. In the event of all three substitutes being made and a player having to leave the field for injury the team will be forced to play without a replacement for that player.
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px") Each game must include one referee and two assistant referee’s (linesmen). It’s the job of the referee to act as time keeper and make any decisions which may need to be made such as fouls, free kicks, throw ins, penalties and added on time at the end of each half. The referee may consult the assistant referees at any time in the match regarding a decision. It’s the assistant referee’s job to spot offside’s in the match (see below), throw ins for either team and also assist the referee in all decision making processes where appropriate.
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px") If the game needs to head to extra time as a result of both teams being level in a match then 30 minutes will be added in the form of two 15 minute halves after the allotted 90 minutes.
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px") If teams are still level after extra time then a penalty shootout must take place.
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px") The whole ball must cross the goal line for it to constitute as a goal.
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px") For fouls committed a player could receive either a yellow or red card depending on the severity of the foul; this comes down to the referee’s discretion. The yellow is a warning and a red card is a dismissal of that player. Two yellow cards will equal one red. Once a player is sent off then they cannot be replaced.
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px").mb-1 If a ball goes out of play off an opponent in either of the side lines then it is given as a throw in. If it goes out of play off an attacking player on the base line then it is a goal kick. If it comes off a defending player it is a corner kick.
+                    .container
+                        .row
+                            .project-text.w-100.my-auto.text-center.text-lg-left
+                                h1.text-black.text-center The Offside Rule in Football
+                                p.mb-0.text-black(style="font-size: 20px").text-center
+                                    | Offside can be called when an attacking player is in front of the last defender when the pass is played through to them. The offside area is designed to discourage players from simply hanging around the opponent’s goal waiting for a pass. To be onside they must be placed behind the last defender when the ball is played to them. If the player is in front of that last defender then he is deemed to be offside and free kick to the defending team will be called. A player cannot be caught offside in their own half. If the ball is played backwards and the player is in front of the last defender then he is deemed to be not offside.
+
+                    .container
+                        .row
+                            .project-text.w-100.my-auto.text-center.text-lg-left
+                                h1.text-black.text-center Top 10 most expensive football players 2021
+                                    p.mb-0.text-white(style="font-size: 20px").text-center .
+                                    ul.text-left
+                                        img.img-fluid(src='assets/img/OIP.jpg', alt='...' style="float: right; height: 500px;margin-right: 60px")
+                                        li.mb-1.text-black(style="font-size: 20px; margin-left: 40px") Kylian Mbappe - 189M.€
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px; margin-left: 40px;") Erling Haaland - 131M.€
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px; margin-left: 40px") Harry Kane - 127M.€
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px; margin-left: 40px") Marcus Rashford - 121M.€
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px; margin-left: 40px") Raheem Sterling - 119M.€
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px; margin-left: 40px") Neymar - 116M.€
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px; margin-left: 40px") Kevin de Bruyne - 113M.€
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px; margin-left: 40px") Jadon Sancho - 110M.€
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px; margin-left: 40px") Mohammed Salah - 110M.€
+                                        p.mb-0.text-white(style="font-size: 20px").text-center .
+                                        li.mb-1.text-black(style="font-size: 20px; margin-left: 40px") Trent AlexanderArnold - 110M.€
+                                        
+                                    
+        // Signup
+        section#signup.signup-section
+            .container
+                .row
+                    .col-md-10.col-lg-8.mx-auto.text-center
+                        i.far.fa-paper-plane.fa-2x.mb-2.text-white
+                        h2.text-white.mb-5 Do you have any questions? Contact Us!
+                        form.form-inline.d-flex
+                            a.btn.btn-primary.mx-auto(href='http://localhost:4000/contact') Contact form
+        // Contact
+        section.contact-section.bg-black
+            .container
+                .row
+                    .col-md-4.mb-3.mb-md-0
+                        .card.py-4.h-100
+                            .card-body.text-center
+                                i.fas.fa-map-marked-alt.text-primary.mb-2
+                                h4.text-uppercase.m-0 Address
+                                hr.my-4
+                                .small.text-black-50 Limesstraße 12- 14 · 4060 Leonding
+                    .col-md-4.mb-3.mb-md-0
+                        .card.py-4.h-100
+                            .card-body.text-center
+                                i.fas.fa-envelope.text-primary.mb-2
+                                h4.text-uppercase.m-0 Email
+                                hr.my-4
+                                .small.text-black-50
+                                    a(href='mailto:berdankadir12@gmail.com') berdankadir12@gmail.com
+                    .col-md-4.mb-3.mb-md-0
+                        .card.py-4.h-100
+                            .card-body.text-center
+                                i.fas.fa-mobile-alt.text-primary.mb-2
+                                h4.text-uppercase.m-0 Phone
+                                hr.my-4
+                                .small.text-black-50 +43 732 6733680
+                .social.d-flex.justify-content-center
+                    a.mx-2(href='https://twitter.com/karlof002')
+                        i.fab.fa-twitter
+                    a.mx-2(href='https://www.facebook.com/ExynoOffical')
+                        i.fab.fa-facebook-f
+                    a.mx-2(href='https://github.com/karlof002/football')
+                        i.fab.fa-github
+        // Footer
+        footer.footer.bg-black.small.text-center.text-white-50
+            .container
+                | Copyright &copy; Football 2021
+        // Bootstrap core JS
+        script(src='https://code.jquery.com/jquery-3.5.1.min.js')
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js')
+        // Third party plugin JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js')
+        // Core theme JS
+        script(src='js/scripts.js')
